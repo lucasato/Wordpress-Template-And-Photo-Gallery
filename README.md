@@ -1,5 +1,10 @@
-# Wordpress-Template-And-Photo-Gallery
-Free wordpress template + Custom gallery module.
+
+# Free Wordpress Template Orange Lucasato
+* Featured posts
+* Gallery
+* Responsive
+* Languages: Spanish, English.
+* Share post in Twitter, Google, Linkedin & Twitter
 
 ![Alt text](screenshot.png?raw=true "Template Preview")
 
