@@ -49,7 +49,7 @@ function admin_assets_enqueue()
     wp_enqueue_script('jquery-ui-dialog');
     wp_enqueue_style('wp-jquery-ui-dialog');
     wp_enqueue_script('gallery-file-upload', get_template_directory_uri(). '/admin_gallery/assets/js/gallery-file-upload.js', array( 'jquery' ), '1.0', true);
-    wp_enqueue_script('gallery-admin', get_template_directory_uri(). '/admin_gallery/assets/js/gallery-admin.js?v='.time(), array( 'jquery' ), '1.0.1', true);
+    wp_enqueue_script('gallery-admin', get_template_directory_uri(). '/admin_gallery/assets/js/gallery-admin.js', array( 'jquery' ), '1.0.1', true);
     wp_enqueue_script('uploadfile.min', get_template_directory_uri(). '/admin_gallery/assets/js/jquery.uploadfile.min.js', array( 'jquery' ), '1.0.1', true);
     wp_enqueue_style('uploadfile.style', get_template_directory_uri(). '/admin_gallery/assets/css/uploadfile.min.css', false, '1.0', 'all');
     wp_enqueue_style('custom_gallery', get_template_directory_uri(). '/admin_gallery/assets/css/custom_gallery.css', false, '1.0', 'all');
@@ -73,14 +73,14 @@ function siteSetup()
     wp_deregister_script('jquery');
     wp_enqueue_script('jquery', get_template_directory_uri(). '/script/jquery.js', false, '1.0', true);
     wp_enqueue_script('bootstrap.min', get_template_directory_uri(). '/script/bootstrap/bootstrap.min.js', array( 'jquery' ), '1.0', true);
-    wp_enqueue_style('bootstrap.min', get_template_directory_uri(). '/css/style.css?t='.time(), false, '1.0', 'all');
+    wp_enqueue_style('bootstrap.min', get_template_directory_uri(). '/css/style.css', false, '1.0', 'all');
 
     // Google font oswald & Noto
     wp_enqueue_style('font-oswald', 'https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Oswald:400,600', false, '1.0', 'all');
 
     // Gallery
     wp_enqueue_style('easy-gallery', get_template_directory_uri(). '/css/easyGallery.css', false, '1.0', 'all');
-    wp_enqueue_script('easy-gallery', get_template_directory_uri(). '/script/easyGallery.js?t='.time(), array( 'jquery' ), '1.2', true);
+    wp_enqueue_script('easy-gallery', get_template_directory_uri(). '/script/easyGallery.js', array( 'jquery' ), '1.2', true);
     wp_enqueue_style('custom_lucasato_gallery', get_template_directory_uri(). '/admin_gallery/assets/css/custom_gallery.css', false, '1.0', 'all');
 
     // Custom script
