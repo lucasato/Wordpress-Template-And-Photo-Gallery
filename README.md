@@ -4,7 +4,7 @@
 * Gallery
 * Responsive
 * Languages: Spanish, English.
-* Share post in Twitter, Google, Linkedin & Twitter
+* Share posts on Twitter, Google, Linkedin & Twitter
 
 ![Alt text](screenshot.png?raw=true "Template Preview")
 
